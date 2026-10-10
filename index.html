@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Maria Eduarda Soares</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="portfolio-page">
+    <header class="site-header">
+      <a class="brand-mark" href="#inicio">MS</a>
+
+      <nav class="nav-links">
+        <a href="#sobre-mim" data-i18n="about">Sobre mim</a>
+        <a href="#projetos" data-i18n="skills">skills</a>
+        <a href="#portfolio" data-i18n="portfolio">Portfólio</a>
+        <a href="#contato" data-i18n="contact">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-button">
+          <span class="theme-icon icon-moon">☾</span><span class="theme-icon icon-sun">☀</span>
+          <span data-i18n="themeDark">Dark</span>
+        </button>
+
+        <div class="language-control">
+          <button id="ptButton" class="language-active">PT</button>
+          <button id="enButton">EN</button>
+        </div>
+
+        <a href="Currículo - Maria Soares.pdf" class="resume-button" download>
+          <span class="resume-dot"></span>
+          <span data-i18n="resume">Currículo</span>
+        </a>
+
+        <button class="menu-button">
+          <span class="menu-icon">☰</span><span class="close-icon">×</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro-section" id="inicio">
+        <div class="intro-copy">
+          <span class="availability">
+            <span></span>
+            <span data-i18n="active">Disponível agora</span>
+          </span>
+          <p data-i18n="greeting">Oi, eu sou Maria Soares. Bem-vinda ao meu</p>
+          <h1>PORT<span>fólio,</span></h1>
+        </div>
+
+        <div class="flower-picture">
+          <img class="flower-image" src="flores-dark.webp" alt="Flores luminosas em tons de rosa e lilás">
+        </div>
+
+        <a class="scroll-link" href="#sobre-mim">
+          <span data-i18n="scroll">Role para conhecer</span>
+          <span class="simple-icon">↓</span>
+        </a>
+      </section>
+
+      <section class="about-section content-width" id="sobre-mim">
+        <div class="section-heading">
+          <h2 data-i18n="intro">Introdução</h2>
+        </div>
+
+        <p class="intro-paragraph" data-i18n="introText">Sou estudante de tecnologia e gosto de transformar ideias em interfaces que as pessoas realmente entendem e utilizam. Espero, um dia, colocar meus esforços em prática e criar projetos que façam a diferença.</p>
+
+        <div class="about-layout">
+          <div class="portrait-placeholder">
+            <img src="maria-soares-photo.jpeg" alt="Retrato de Maria Soares." class="portrait-image">
+          </div>
+          <div>
+            <h3 data-i18n="aboutTitle">Sobre mim</h3>
+            <p data-i18n="aboutText">Comecei na programação pela curiosidade de entender como as coisas funcionam por trás da tela e explorar áreas novas. Hoje divido meu tempo entre estudos, projetos pessoais e colaborações onde posso aprender cada vez mais com outras pessoas, colocando oque eu sei em prática e construindo conhecimento.</p>
+          </div>
+        </div>
+      </section>
+
+
+
+<div class="petal-frame-portfolio">
+  <section class="portfolio-section" id="portfolio">
+
+    <h2 data-i18n="projectsTitle">Portfólio</h2>
+
+    <p class="portfolio-sub" data-i18n="projectsText">
+      Explore minha trajetória por meio dos meus projetos e experiências.
+    </p>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="projetos" data-i18n="projectsTab">
+        Projetos
+      </button>
+
+      <button class="tab" data-tab="certificados" data-i18n="certificates">
+        Certificados
+      </button>
+
+      <button class="tab" data-tab="hard" data-i18n="hardSkills">
+        Hard Skills
+      </button>
+
+      <button class="tab" data-tab="soft" data-i18n="softSkills">
+        Soft Skills
+      </button>
+    </div>
+
+    <div class="tab-content show" id="projetos">
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img src="portifolio-project.png" alt="" class="project-img">
+          <span class="project-num">10 / 2026</span>
+          <h3 data-i18n="projectName1">Projeto Portfólio</h3>
+          <p data-i18n="projectDescription1">
+            Design e desenvolvimento deste portfólio pessoal, do conceito à interface.
+          </p>
+          <a class="project-link" href="#" target="_blank" data-i18n="details">
+            Ver detalhes ↗
+          </a>
+        </div>
+
+
+        <div class="project-card">
+          <img src="akami-project.png" alt="" class="project-img">
+          <span class="project-num">07 / 2026</span>
+          <h3 data-i18n="projectName2">Akami.Setup</h3>
+          <p data-i18n="projectDescription2">
+            Design, desenvolvimento e criação de e-commerce, do conceito à interface.
+          </p>
+
+          <a class="project-link" href="https://mariaoliveso.github.io/Akami.setup/" target="_blank" data-i18n="details">
+            Ver detalhes ↗
+          </a>
+        </div>
+
+
+        <div class="project-card">
+          <img src="LandingPage-projects.png" alt="" class="project-img">
+
+          <span class="project-num">08 / 2026</span>
+
+          <h3 data-i18n="projectName3">Projeto Landing Page Akami.Setup</h3>
+
+          <p data-i18n="projectDescription3">
+            Figma da Landing Page de e-commerce Akami.Setup.
+          </p>
+
+          <a class="project-link" href="https://www.figma.com/design/a00akKuUbYIgOT0spm7ZWQ/Akami.setup?node-id=23-13&p=f&t=Od9g0ZhaInYaA9ei-0" target="_blank" data-i18n="details">
+            Ver detalhes ↗
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tab-content" id="certificados">
+
+      <div class="certificates-grid">
+
+        <div class="certificates-card">
+          <img src="DevClub.png" alt="" class="project-img">
+          <span class="certificate-num">05 / 2026</span>
+          <h3 data-i18n="certificateName1">Certificado DevClub</h3>
+          <p data-i18n="certificateDescription1">
+            Certificado de conclusão DevClub.
+          </p>
+          <a class="certificate-link" href="Certificado de Conclusão.pdf" target="_blank" data-i18n="certificateDetails">
+            Ver certificado
+          </a>
+        </div>
+
+
+        <div class="certificates-card">
+          <img src="cibersegurança.png" alt="" class="project-img">
+          <span class="certificate-num">03 / 2026</span>
+          <h3 data-i18n="certificateName2">Certificado Introdução à Cibersegurança - CISCO</h3>
+          <p data-i18n="certificateDescription2">
+            Certificado de aprendizado e desenvolvimento profissional.
+          </p>
+          <a class="certificate-link" href="Cisco Networking Academy.pdf" target="_blank" data-i18n="certificateDetails">
+            Ver certificado
+          </a>
+        </div>
+
+        <div class="certificates-card">
+          <img src="CSS-essenciais.png" alt="" class="project-img">
+          <span class="certificate-num">08 / 2026</span>
+          <h3 data-i18n="certificateName3">Certificado essenciais CSS - CISCO</h3>
+          <p data-i18n="certificateDescription3">
+            Certificado de formação e desenvolvimento profissional.
+          </p>
+          <a class="certificate-link" href="Cisco Networking Academy.pdf" target="_blank" data-i18n="certificateDetails">
+            Ver certificado
+          </a>
+        </div>
+
+        <div class="certificates-card">
+          <img src="HTML-essenciais.png" alt="" class="project-img">
+          <span class="certificate-num">08 / 2026</span>
+          <h3 data-i18n="certificateName4">Certificado essenciais HTML - CISCO</h3>
+          <p data-i18n="certificateDescription4">
+            Certificado de aprendizado e desenvolvimento profissional.
+          </p>
+          <a class="certificate-link" href="HTML Essentials.pdf" target="_blank" data-i18n="certificateDetails">
+            Ver certificado
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tab-content" id="hard">
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <img src="html.png" alt="HTML">
+          <span>HTML</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="css.png" alt="CSS">
+          <span>CSS</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="JavaScript.png" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="Figma.png" alt="Figma">
+          <span>Figma</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="Linux.png" alt="Linux">
+          <span>Linux</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="c.png" alt="C#">
+          <span>C#</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="Excel.png" alt="Excel">
+          <span>Excel</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="Word.png" alt="Word">
+          <span>Word</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="PowerPoint.png" alt="PowerPoint">
+          <span>PowerPoint</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="MySql.png" alt="MySQL">
+          <span>MySQL</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="tab-content" id="soft">
+
+      <ol class="soft-list">
+        <li data-i18n="softPractices">Aprendizado contínuo</li>
+        <li data-i18n="softpracticality">Praticidade</li>
+        <li data-i18n="softOrganization">Organização</li>
+        <li data-i18n="softCommunication">Comunicação</li>
+        <li data-i18n="softTeamwork">Trabalho em equipe</li>
+      </ol>
+
+    </div>
+
+  </section>
+</div>
+
+
+      <section class="contact-section" id="contato">
+
+        <div class="content-width contact-layout">
+          <div class="contact-copy">
+            <p class="contact-eyebrow" data-i18n="contactEyebrow">Vamos criar algo juntos?</p>
+            <h2 data-i18n="contactTitle">Comece um projeto</h2>
+            <p class="contact-text" data-i18n="contactText">Tem uma ideia, uma oportunidade ou quer conversar? Preencha o formulário e me conte um pouco sobre você.</p>
+            <div class="contact-signature">
+              Maria Soares
+            </div>
+          </div>
+
+          <form class="contact-form"
+      action="https://formsubmit.co/SEUEMAIL@gmail.com"
+      method="POST"
+      novalidate>
+
+  <input type="hidden" name="_subject" value="Nova mensagem pelo meu portfólio">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+
+  <div class="form-row">
+    <div class="form-field">
+      <label for="name" data-i18n="name">Seu nome</label>
+      <input id="name" name="name" type="text" maxlength="100" placeholder="Como posso te chamar?">
+      <span class="field-error" id="nameError"></span>
+    </div>
+
+    <div class="form-field">
+      <label for="email" data-i18n="email">Seu e-mail</label>
+      <input id="email" name="email" type="email" maxlength="255" placeholder="voce@exemplo.com">
+      <span class="field-error" id="emailError"></span>
+    </div>
+  </div>
+
+  <div class="form-field">
+    <label for="subject" data-i18n="subject">Assunto</label>
+    <input id="subject" name="subject" type="text" maxlength="120" placeholder="Sobre o que vamos conversar?">
+    <span class="field-error" id="subjectError"></span>
+  </div>
+
+  <div class="form-field">
+    <label for="message" data-i18n="message">Mensagem</label>
+    <textarea id="message" name="message" maxlength="1200" rows="7" placeholder="Me conte sobre sua ideia..."></textarea>
+    <span class="field-error" id="messageError"></span>
+  </div>
+
+  <button class="submit-button" type="submit">
+    <span data-i18n="send">Enviar mensagem</span>
+    <span class="simple-icon">→</span>
+  </button>
+
+  <div class="form-success" id="formSuccess" hidden>
+    <span class="simple-icon">✓</span>
+    <span>
+      <strong data-i18n="sent">Mensagem enviada!</strong>
+      <span data-i18n="sentText">
+        Obrigada pelo contato. Vou responder assim que puder.
+      </span>
+    </span>
+  </div>
+
+</form>
+        </div>
+
+        <div class="socials">
+  <p class="socials-title">Conecte-se comigo</p>
+
+  <a class="social-card social-big" href="https://www.linkedin.com/in/maria-eduarda-de-oliveira-soares-6a64633b7/?isSelfProfile=true" target="_blank">
+    <i class="fa-brands fa-linkedin-in"></i>
+    <span>LinkedIn<small>Maria Eduarda de Oliveira Soares</small></span>
+  </a>
+
+  <a class="social-card" href="https://www.instagram.com/maduoliviso/" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+    <span>Instagram<small>@maduoliviso</small></span>
+  </a>
+
+  <a class="social-card" href="mailto:soaresmariao2010@gmail.com">
+    <i class="fa-solid fa-envelope"></i>
+    <span>E-mail<small>soaresmariao2010@gmail.com</small></span>
+  </a>
+
+  <a class="social-card" href="https://github.com/MariaOliveSo" target="_blank">
+    <i class="fa-brands fa-github"></i>
+    <span>GitHub<small>@MariaOliveSo</small></span>
+  </a>
+
+  <a class="social-card" href="tel:+5500000000000">
+    <i class="fa-solid fa-phone"></i>
+    <span data-i18n="telephone">Telefone</span>
+    <small>(31) 99565-6703</small>
+  </a>
+</div>
+
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <span>2026 | Maria Eduarda Soares</span>
+        <span data-i18n="footer">Feito por Maria Eduarda Soares</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
